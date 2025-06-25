@@ -1,2 +1,214 @@
 # -Modern-E-Commerce-Front-Page
 This Amazon-inspired front-end clone is built with HTML, CSS. It includes all key sections of a modern e-commerce website
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMAZON</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+        <div class="nav-adress border">
+          <p class="add-first">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot" style="color: #fcff3d"></i>
+            <p class="add-sec">India</p>
+          </div>
+        </div>
+        <div class="nav-search">
+          <select class="search-select">
+            <option>ALL</option>
+          </select>
+          <input placeholder="search AMAZON" class="search-input" />
+          <div class="select-icon">
+            <i class="fa-solid fa-magnifying-glass icon-color"></i>
+          </div>
+        </div>
+
+        <div class="nav-signin border">
+          <p><span> Hello, Sign in</span></p>
+          <p class="nav-second">Accouny & Lists</p>
+        </div>
+
+        <div class="nav-return border">
+          <p><span>Returns</span></p>
+          <p class="nav-second">& Orders</p>
+        </div>
+
+        <div class="nav-cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          cart
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-all">
+          <i class="fa-solid fa-bars"></i>
+          ALL
+        </div>
+        <div class="panel-ops">
+          <p>Today's Deals</p>
+          <p>Customer Service</p>
+          <p>Registry</p>
+          <p>Gift Cards</p>
+          <p>Sell</p>
+        </div>
+        <div class="panel-deals">shop deals in Electronics</div>
+      </div>
+    </header>
+    <div class="hero-section">
+      <div class="hero-message">
+        <p>
+          You are on amazon.com. You can also shop on Amazon India for millions
+          of products with fast local delivery.<a
+            >Click here to go to amazon.in</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="shop-section">
+      <div class="box">
+        <div class="box-content">
+          <h2>Get Your Game On</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box1.jpg')"
+          ></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>skin care</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box2.jpg')"
+          ></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Shoes</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box3.jpg')"
+          ></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Clothes</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box4.jpg')"
+          ></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Smart Watch</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box5.jpg')"
+          ></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Wall Decore</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box6.jpg')"
+          ></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Games</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box7.jpg')"
+          ></div>
+          <p>see more</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Mirrors</h2>
+          <div
+            class="box-image"
+            style="background-image: url('box8.jpg')"
+          ></div>
+          <p>see more</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot-panel1">Back To Top</div>
+      <div class="foot-panel2">
+        <ul>
+          <p>Get To Know Us</p>
+          <a>Careers</a>
+          <a>Blog</a>
+          <a>About Amazon</a>
+          <a>Investor Relations</a>
+          <a>Amazon Devices</a>
+          <a>Amazon Science</a>
+        </ul>
+        <ul>
+          <p>Get To Know Us</p>
+          <a>Careers</a>
+          <a>Blog</a>
+          <a>About Amazon</a>
+          <a>Investor Relations</a>
+          <a>Amazon Devices</a>
+          <a>Amazon Science</a>
+        </ul>
+        <ul>
+          <p>Get To Know Us</p>
+          <a>Careers</a>
+          <a>Blog</a>
+          <a>About Amazon</a>
+          <a>Investor Relations</a>
+          <a>Amazon Devices</a>
+          <a>Amazon Science</a>
+        </ul>
+      </div>
+
+      <div class="foot-panel3">
+        <div class="logo"></div>
+      </div>
+      <div class="foot-panel4">
+        <div class="pages">
+          <a>Conditions of Use</a>
+          <a>Privacy Notice</a>
+          <a> Your Ads Privacy Choices</a>
+        </div>
+        <div class="copuright">
+          © 1996-2025, Amazon.com, Inc. or its affiliates
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
